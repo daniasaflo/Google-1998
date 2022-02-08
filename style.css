@@ -1,0 +1,47 @@
+.logo{
+    text-align: center;
+}
+.search{
+    background-color:  rgb(238, 238, 238);
+    text-align: center;
+    padding: 10px;
+}
+.search input[type="search"]{
+    width: 400px;
+    max-width: 90%;
+}
+.search .buttons {
+    margin-top: 5px;
+
+}
+.footer{
+  
+    background-color: turquoise;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    border-color: #fff;
+}
+.footer .special{
+    width: 37%;
+    background-color: rgb(126, 229, 218);
+    
+}
+.footer .help{
+    background-color: rgb(112, 204, 194);
+}
+.footer .get{
+    
+    background-color: rgb(98, 179, 170);
+
+}
+.footer > div{
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.copyright{
+    text-align: center;
+}
